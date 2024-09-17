@@ -50,13 +50,13 @@ not deliver the intended results.
 
 ### Patterns of Accountability
 
-| Pattern    | Description                                                                                                                                                                                                                                                    |
-|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Approver   | The approver pattern creates centralised accountability for decision making. This pattern is a “pull” decision making model, where the petitioner requests decisions as needed.                                                                                |
-| Supervisor | The supervisor pattern creates centralised accountability for the work that a team performs. This pattern is a collaborative decision making model, where the decision maker is embedded in the team.                                                          |
-| Controller | The controller pattern centralised accountability for a task in one person. The subject that does the work is separate from the decision making. This pattern is a “push” decision making model, where the decision maker directs the activity of the subject. |
-| Volunteer  | A person or group nominates themselves as accountable for a task. This is a social model, where the volunteer’s credibility is tied to their performance of the task.                                                                                          |
-| Expert     | Accountability is assigned according to the expertise that each person or group in an organisation possesses. This is a skill based model, as only skilled people are able assume accountability for a task.                                                   |
+| Pattern                                 | Description                                                                                                                                                                                                                                                    |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Approver                                | The approver pattern creates centralised accountability for decision making. This pattern is a “pull” decision making model, where the petitioner requests decisions as needed.                                                                                |
+| Supervisor                              | The supervisor pattern creates centralised accountability for the work that a team performs. This pattern is a collaborative decision making model, where the decision maker is embedded in the team.                                                          |
+| [Controller](accountability/controller) | The controller pattern centralised accountability for a task in one person. The subject that does the work is separate from the decision making. This pattern is a “push” decision making model, where the decision maker directs the activity of the subject. |
+| Volunteer                               | A person or group nominates themselves as accountable for a task. This is a social model, where the volunteer’s credibility is tied to their performance of the task.                                                                                          |
+| Expert                                  | Accountability is assigned according to the expertise that each person or group in an organisation possesses. This is a skill based model, as only skilled people are able assume accountability for a task.                                                   |
 
 ### Patterns of Coordination
 
