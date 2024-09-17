@@ -10,10 +10,11 @@ goals it tries to achieve are:
 * to work towards heuristics of the preferred patterns to use for certain organisational outcomes
 
 Further reading:
+
 * [The Organisational Problem Space](problem_space.md) defines some reasoning behind why organisational patterns could
-help us solve our problems
+  help us solve our problems
 * [Definition of an Organisational Pattern](pattern_definition.md) defines what we expect an organisational pattern to
-actually contain for it to be useful
+  actually contain for it to be useful
 
 ## Dimensions of Organisational Patterns
 
@@ -60,11 +61,11 @@ not deliver the intended results.
 
 ### Patterns of Coordination
 
-| Pattern      | Description                                                                                                                                                                |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Orchestrator | A person or group is tasked with coordinating the work of other groups. This pattern is a synchronous coordination model.                                                  |
-| Advisor      | A group within the organisation that guides the direction of their followers by setting standards, strategy or guidelines. This pattern is a broadcast coordination model. |
-| Workflow     | There is a common understanding of how work must be done, shared by all groups that need to contribute to the work. This pattern is a predefinition coordination model.    |
+| Pattern                                   | Description                                                                                                                                                                |
+|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Orchestrator](coordination/orchestrator) | A role that is tasked with coordinating the work of others to achieve a common goal. This pattern is a synchronous coordination model.                                     |
+| Advisor                                   | A group within the organisation that guides the direction of their followers by setting standards, strategy or guidelines. This pattern is a broadcast coordination model. |
+| Workflow                                  | There is a common understanding of how work must be done, shared by all groups that need to contribute to the work. This pattern is a predefinition coordination model.    |
 
 ### Patterns of Value Creation
 
