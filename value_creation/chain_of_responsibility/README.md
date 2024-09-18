@@ -3,12 +3,13 @@
 Work being passed from one value creator to another along a defined path.
 
 ```mermaid
-flowchart LR
-    Input -->|Consumed by| GroupA
-    subgraph "Value Stream"
+flowchart TD
+    subgraph valueStream [Value Stream]
+        direction LR
+        Input -->|Consumed by| GroupA
         GroupA -->|Hands off to| GroupB -->|Hands off to| GroupC
+        GroupC -->|Delivers| Outcome
     end
-    GroupC -->|Delivers| Outcome
 ```
 
 ## Subjects
