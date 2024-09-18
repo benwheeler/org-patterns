@@ -56,21 +56,21 @@ not deliver the intended results.
 | [Approver](accountability/approver)     | The approver pattern creates centralised accountability for decision making. This pattern is a “pull” decision making model, where the petitioner requests decisions as needed.                                                                                |
 | [Supervisor](accountability/supervisor) | The supervisor pattern creates centralised accountability for the work that a team performs. This pattern is a collaborative decision making model, where the decision maker is embedded in the team.                                                          |
 | [Controller](accountability/controller) | The controller pattern centralised accountability for a task in one person. The subject that does the work is separate from the decision making. This pattern is a “push” decision making model, where the decision maker directs the activity of the subject. |
-| Volunteer                               | A person or group nominates themselves as accountable for a task. This is a social model, where the volunteer’s credibility is tied to their performance of the task.                                                                                          |
-| Expert                                  | Accountability is assigned according to the expertise that each person or group in an organisation possesses. This is a skill based model, as only skilled people are able assume accountability for a task.                                                   |
+| Volunteer (proposal)                    | A person or group nominates themselves as accountable for a task. This is a social model, where the volunteer’s credibility is tied to their performance of the task.                                                                                          |
+| Expert (proposal)                       | Accountability is assigned according to the expertise that each person or group in an organisation possesses. This is a skill based model, as only skilled people are able assume accountability for a task.                                                   |
 
 ### Patterns of Coordination
 
 | Pattern                                   | Description                                                                                                                                                                |
 |-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Orchestrator](coordination/orchestrator) | A role that is tasked with coordinating the work of others to achieve a common goal. This pattern is a synchronous coordination model.                                     |
-| Advisor                                   | A group within the organisation that guides the direction of their followers by setting standards, strategy or guidelines. This pattern is a broadcast coordination model. |
-| Workflow                                  | There is a common understanding of how work must be done, shared by all groups that need to contribute to the work. This pattern is a predefinition coordination model.    |
+| Advisor (proposal)                        | A group within the organisation that guides the direction of their followers by setting standards, strategy or guidelines. This pattern is a broadcast coordination model. |
+| Workflow (proposal)                       | There is a common understanding of how work must be done, shared by all groups that need to contribute to the work. This pattern is a predefinition coordination model.    |
 
 ### Patterns of Value Creation
 
-| Pattern                 | Description                                                                                                                                                      |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Chain of Responsibility | Work being passed from one value creator to another along a defined path.                                                                                        |
-| Service Provider        | One service provider is responsible for delivering a defined organisational capability, that is then consumed by others.                                         |
-| Decorator               | An initial piece of work creates an output with some value, then this output is progressively improved by adding more value until the final outcome is achieved. |
+| Pattern                                                           | Description                                                                                                                                                      |
+|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Chain of Responsibility](value_creation/chain_of_responsibility) | Work being passed from one value creator to another along a defined path.                                                                                        |
+| Service Provider (proposal)                                       | One service provider is responsible for delivering a defined organisational capability, that is then consumed by others.                                         |
+| Decorator (proposal)                                              | An initial piece of work creates an output with some value, then this output is progressively improved by adding more value until the final outcome is achieved. |
