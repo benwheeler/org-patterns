@@ -74,3 +74,47 @@ not deliver the intended results.
 | [Chain of Responsibility](value_creation/chain_of_responsibility) | Work being passed from one value creator to another along a defined path.                                                                                        |
 | Service Provider (proposal)                                       | One service provider is responsible for delivering a defined organisational capability, that is then consumed by others.                                         |
 | Decorator (proposal)                                              | An initial piece of work creates an output with some value, then this output is progressively improved by adding more value until the final outcome is achieved. |
+
+## Patterns in Practice
+
+Using the very basic language above to describe how organisations are put together, let's see what some worked examples
+look like. Note that these examples are for the purpose of illustrating the model, and are not intended to be super
+realistic.
+
+The main method to show the effects of patterns on the behaviour within organisations is to describe how the patterns
+affect the value streams. These patterns are probabilistic, so there are many different paths that value can take
+through the organisation, being affected by different patterns, and to different degrees each time. The sum of all value
+paths determines the total work that is done by the organisation.
+
+### An Authority Hierarchy
+
+An extremely common type of organisation is the authority hierarchy. This is an organisation with many levels where
+people generally just do what their bosses tell them to do. These organisations are typically not very innovative, and
+very slow to change. Common patterns we might find in these organisations are the Controller and Approver which
+distribute accountability from the executive levels down through the hierarchy to the people who do the actual work,
+creating a lot of silos in the process. Some Orchestrator patterns may exist, where programmes have been created to work
+across the silos created by the accountability patterns. Value is generally created using a Chain of Responsibility
+pattern which passes work from silo to silo. The accountability dimension in these organisation types is not aligned
+with the value creation dimension, and there is not much of an orchestration dimension.
+
+A good example of this type of organisation is the classic idea of a factory assembly line, where the work moves between
+different people at each station, who perform their specific value adding task.
+
+A diagram of how this might look is shown below, with patterns shown as dependency lines between people. From top to
+bottom we see the authority hierarchy with solid lines, each person having multiple roles. The creation of value is
+shown by the side to side dashed lines, transforming the input (cloud) into the output (pyramid). Any coordination
+dependencies are shown as dotted lines between people.
+
+![Authority Hierarchy](authority_hierarchy.png)
+
+From the diagram, we can pick out some salient points:
+
+* Workers play the roles of Subject and Petitioner with their Managers, and they are part of a Chain of Responsibility
+  that creates value.
+* Managers play the roles of Subject and Petitioner towards their Directors, and also play the roles of Controller and
+  Approver towards their Workers.
+* Directors play the roles of Controller and Approver towards their Managers.
+* One Director also plays the role of Orchestrator, but we can see that they will find it **much** easier to do this
+  with one Manager then with the other, as they are only the Controller of one of them.
+* This is a highly siloed organisation, with very few links across the hierarchy.
+* Any global optimisation of the value stream must involve everyone on the diagram.
