@@ -5,10 +5,10 @@ coordination model.
 
 ```mermaid
 flowchart LR
-    Orchestrator -->|Request| GroupA
-    GroupA -->|Status| Orchestrator
-    Orchestrator -->|Request| GroupB
-    GroupB -->|Status| Orchestrator
+    Orchestrator -.->|Request| GroupA
+    GroupA -.->|Status| Orchestrator
+    Orchestrator -.->|Request| GroupB
+    GroupB -.->|Status| Orchestrator
 ```
 
 ## Subjects
