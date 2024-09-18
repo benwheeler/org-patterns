@@ -21,14 +21,14 @@ flowchart LR
 For this pattern to work correctly, the following needs to be true:
 
 * Information
-    * The Orchestrator must continually request status updates from the Groups.
-    * Group status updates must be summarised to avoid overflowing the Orchestrator's cognitive load.
+  * The Orchestrator must continually request status updates from the Groups.
+  * Group status updates must be summarised to avoid overflowing the Orchestrator's cognitive load.
 * Expertise
-    * The Orchestrator must have expertise in managing and sequencing tasks to work towards a goal.
+  * The Orchestrator must have expertise in managing and sequencing tasks to work towards a goal.
 * Motivation
-    * The Orchestrator must be motivated to manage the process.
-    * The Groups must be motivated to provide status updates to the Orchestrator.
-    * The Groups must be motivated to perform tasks to progress towards the goal.
+  * The Orchestrator must be motivated to manage the process.
+  * The Groups must be motivated to provide status updates to the Orchestrator.
+  * The Groups must be motivated to perform tasks to progress towards the goal.
 
 ## Effects
 

@@ -19,13 +19,13 @@ flowchart LR
 For this pattern to work correctly, the following needs to be true:
 
 * Influence
-    * The Controller must have higher influence than the Subject, to avoid being ignored.
+  * The Controller must have higher influence than the Subject, to avoid being ignored.
 * Information
-    * Any information flowing to the Controller must be summarised to reduce their cognitive load.
-    * Cognitive load will limit how many Subjects a Controller can direct.
+  * Any information flowing to the Controller must be summarised to reduce their cognitive load.
+  * Cognitive load will limit how many Subjects a Controller can direct.
 * Motivation
-    * The Controller must be motivated to use their capacity to direct the Subject.
-    * The Subject must trust the Controller to make good quality decisions.
+  * The Controller must be motivated to use their capacity to direct the Subject.
+  * The Subject must trust the Controller to make good quality decisions.
 
 ## Effects
 

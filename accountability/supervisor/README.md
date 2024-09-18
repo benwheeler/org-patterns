@@ -21,12 +21,12 @@ flowchart LR
 For this pattern to work correctly, the following needs to be true:
 
 * Information
-    * Constant information must flow between Supervisor and Team.
+  * Constant information must flow between Supervisor and Team.
 * Expertise
   * The Supervisor must have enough domain expertise to maintain credibility with the Team and be able to collaborate.
 * Motivation
-    * The Supervisor must be motivated to lead the Team and spend most of their time collaborating.
-    * The Team must trust the Supervisor.
+  * The Supervisor must be motivated to lead the Team and spend most of their time collaborating.
+  * The Team must trust the Supervisor.
 
 ## Effects
 

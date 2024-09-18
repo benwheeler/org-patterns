@@ -19,12 +19,12 @@ flowchart LR
 For this pattern to work correctly, the following needs to be true:
 
 * Influence
-    * The Approver must have higher influence than the Petitioner to avoid being bypassed.
+  * The Approver must have higher influence than the Petitioner to avoid being bypassed.
 * Information
-    * Enough information must flow between both parties for a quality approval decision to be made.
+  * Enough information must flow between both parties for a quality approval decision to be made.
 * Motivation
-    * The Petitioner must be motivated to seek approvals.
-    * The Approver to accept accountability for the decisions.
+  * The Petitioner must be motivated to seek approvals.
+  * The Approver to accept accountability for the decisions.
 
 ## Effects
 
