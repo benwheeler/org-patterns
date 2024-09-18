@@ -6,7 +6,8 @@ model, where the Petitioner requests decisions as needed.
 
 ```mermaid
 flowchart LR
-    Petitioner <-->|Requests| Approver
+    Petitioner -->|Request| Approver
+    Approver -->|Decision| Petitioner
 ```
 
 ## Subjects
